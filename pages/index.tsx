@@ -14,7 +14,6 @@ const Home: NextPage = () => {
             <a href="">GET IN TOUCH</a>
         </nav>
         <div className={styles.coins1}>
-            
             <img src='/images/dollar_coin2.png' className={styles.coin1} alt="Vercel Logo"/>
             <img className={styles.coin2} src='/images/dollar_coin1.png' alt="Vercel Logo"/>
         </div>
@@ -29,11 +28,7 @@ const Home: NextPage = () => {
             We at Morello believe in founders that innovate the process of value creation to value transfer utilizing blockchain technology.
             </p>
           </div>
-          
-          
-
         </main>
-        
       </header>
       <footer className={styles.footer}>
         <div>
@@ -42,8 +37,6 @@ const Home: NextPage = () => {
         </div>
         <small>&copy; 2022 morello. All Right Reserved</small>
         <a className={styles.orange} href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
-        
-
       </footer>
     </div>
   )
