@@ -35,8 +35,9 @@ const Home: NextPage = () => {
           <h2>Get in touch </h2>
           <a href="mailto:idea@brailie.dev">hello@morello.fund</a>
         </div>
-        <small>&copy; 2022 morello. All Right Reserved</small>
+        <small className={styles.copy_large}>&copy; 2022 morello. All Right Reserved</small>
         <a className={styles.orange} href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
+        <small className={styles.copy_mobile}>&copy; 2022 morello. All Right Reserved</small>
       </footer>
     </div>
   )
