@@ -4,10 +4,14 @@ import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import hero from '../public/images/hero.png'
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>morello</title>
+      </Head>
       <header className={styles.header}>
         <nav className={styles.nav}>
             <div className={styles.logo}> more<span className={styles.orange}>llo</span> </div>
