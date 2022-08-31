@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       <footer className={styles.footer}>
         <div>
           <h2>Get in touch </h2>
-          <a href="mailto:idea@brailie.dev">hello@morello.fund</a>
+          <a href="mailto:hello@morello.fund">hello@morello.fund</a>
         </div>
         <small className={styles.copy_large}>&copy; 2022 morello. All Right Reserved</small>
         <a className={styles.orange} href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
